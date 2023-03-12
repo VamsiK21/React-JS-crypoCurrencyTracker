@@ -1,0 +1,97 @@
+/* Write your CSS code here */
+
+.content-container {
+  width: 80%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .content-container {
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  color: #00e7ff;
+}
+
+@media screen and (min-width: 576px) {
+  .main-heading {
+    font-size: 40px;
+  }
+}
+
+.crypto-image {
+  width: 100%;
+}
+
+.currency-list-container {
+  border: 4px solid #00e7ff;
+  margin: 5px;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .currency-list-container {
+    margin: 15px;
+  }
+}
+
+.columns-title-container {
+  list-style-type: none;
+  background-color: #092e33;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .columns-title-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+
+.titles-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 576px) {
+  .titles-text {
+    font-size: 24px;
+  }
+}
+
+.currency-type-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 140px;
+}
+
+@media screen and (min-width: 576px) {
+  .currency-type-container {
+    justify-content: space-between;
+    width: 250px;
+  }
+}
